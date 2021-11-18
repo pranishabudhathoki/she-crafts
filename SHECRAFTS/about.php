@@ -60,27 +60,7 @@ session_start();
   </div>
   <div class="container pb-3">
   </div>
-  <div class="container mt-3 d-flex justify-content-center card pb-3 col-md-6">
-
-    <form class="col-md-12" action="https://formspree.io/EnterYourEmail" method="POST" name="_next">
-      <h3 class="text-warning pt-3 title mx-auto">Contact Form</h3>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email"
-          name="email">
-      </div>
-
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5"></textarea>
-      </div>
-      <input type="hidden" name="_next" value="http://localhost/foody/about.php" />
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
-
-
-  </div>
+  
   <!--footer -->
   <?php include 'includes/footer.php'?>
   <!--footer end-->
